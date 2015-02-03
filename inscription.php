@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
   		<title>WebApp</title>
+  		<link rel="stylesheet" href="worthy_v.1.0/bootstrap/css/bootstrap.min.css">
 	</head>
 	<body>
 		<div class="contener">
@@ -14,12 +15,22 @@
 					
 				</div>
 			</div>
-			<div class="mainContener">
+			<div style="width:50%;margin:0 auto;">
 				<form action="ajouterUtilisateur.php" method="POST">
-					<label for="">ID NFC</label><input type="text" id="idNFC" name="nfc">
-					<label for="">Login</label><input type="text" id="login" name="login">
-					<label for="">Mot de passe</label><input type="text" id="mdp" name="mdp">
-					<button type="submit" name="boutonInscription">Envoyer</button>
+					<div class="form-group">
+						<div class="row">
+							<label for="" class="col-md-3">ID NFC</label><input type="text" id="idNFC" class="form-control" name="nfc">
+						</div>
+						<div class="row">
+							<label for="" class="col-md-3" >Login</label><input type="text" id="login" name="login" class="form-control">
+						</div>	
+						<div class="row">
+							<label for="" class="col-md-3">Mot de passe</label><input type="password" id="mdp" name="mdp" class="form-control">
+						</div>	
+						<div class="row">
+							<button type="submit" name="boutonInscription" class="btn btn-default">Envoyer</button>
+						</div>	
+					</div>
 				</form>
 			</div>
 		</div>
