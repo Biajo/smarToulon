@@ -15,23 +15,33 @@
 					
 				</div>
 			</div>
-			<div style="width:50%;margin:0 auto;">
+			<div style="width:20%;margin:0 auto;">
 				<form action="ajouterUtilisateur.php" method="POST">
 					<div class="form-group">
 						<div class="row">
-							<label for="" class="col-md-3">ID NFC</label><input type="text" id="idNFC" class="form-control" name="nfc">
+							<label for="" class="col-md-5">ID NFC</label><input type="text" id="idNFC" class="form-control" name="nfc">
 						</div>
 						<div class="row">
-							<label for="" class="col-md-3" >Login</label><input type="text" id="login" name="login" class="form-control">
+							<label for="" class="col-md-5" >Login</label><input type="text" id="login" name="login" class="form-control">
+						</div>
+						<div class="row">
+							<label for="" class="col-md-3">Nom</label><input type="text" id="nom" name="nom" class="form-control">
+						</div>
+                                                <div class="row">
+							<label for="" class="col-md-3">Prenom</label><input type="text" id="mdp" name="prenom" class="form-control">
 						</div>	
 						<div class="row">
-							<label for="" class="col-md-3">Mot de passe</label><input type="password" id="mdp" name="mdp" class="form-control">
-						</div>	
+							<label for="" class="col-md-5">Mot de passe</label><input type="password" id="mdp" name="mdp" class="form-control">
+						</div>
+						<br>
 						<div class="row">
-							<button type="submit" name="boutonInscription" class="btn btn-default">Envoyer</button>
+							<button type="submit" name="boutonInscription" class="btn-block btn-primary">Créer un compte</button>
 						</div>	
 					</div>
 				</form>
+				<div class="row">
+					<button type="submit" class="btn-block btn-default">Déjà inscrit ?</button>
+				</div>
 			</div>
 		</div>
 	</body>
