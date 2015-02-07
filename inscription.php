@@ -16,8 +16,23 @@
 				</div>
 			</div>
 			<div style="width:20%;margin:0 auto;">
+				<div class="row">
+					<h4>Inscription rapide</h4>
+				</div>
+				<form action="" method="POST">
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-12">
+								<button type="submit" class="btn-block btn-primary">Inscription Facebook</button>
+							</div>
+						</div>
+					</div>
+				</form>
 				<form action="ajouterUtilisateur.php" method="POST">
 					<div class="form-group">
+						<div class="row">
+							<h4>Inscription standart</h4>
+						</div>
 						<div class="row">
 							<label for="" class="col-md-5">ID NFC</label><input type="text" id="idNFC" class="form-control" name="nfc">
 						</div>
@@ -37,11 +52,12 @@
 						<div class="row">
 							<button type="submit" name="boutonInscription" class="btn-block btn-primary">Créer un compte</button>
 						</div>	
+						<br>
+						<div class="row">
+							<button type="submit" class="btn-block btn-default" name="boutonConnexion">Déjà inscrit ?</button>
+						</div>
 					</div>
 				</form>
-				<div class="row">
-					<button type="submit" class="btn-block btn-default">Déjà inscrit ?</button>
-				</div>
 			</div>
 		</div>
 	</body>
