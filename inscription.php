@@ -16,15 +16,13 @@
 				</div>
 			</div>
 			<div style="width:20%;margin:0 auto;">
-				<div class="row">
-					<h4>Inscription rapide</h4>
-				</div>
 				<form action="" method="POST">
 					<div class="form-group">
 						<div class="row">
-							<div class="col-md-12">
-								<button type="submit" class="btn-block btn-primary">Inscription Facebook</button>
-							</div>
+							<h4>Inscription rapide</h4>
+						</div>
+						<div class="row">
+							<button type="submit" class="btn-block btn-primary">Inscription Facebook</button>
 						</div>
 					</div>
 				</form>
@@ -34,25 +32,24 @@
 							<h4>Inscription standart</h4>
 						</div>
 						<div class="row">
-							<label for="" class="col-md-5">ID NFC</label><input type="text" id="idNFC" class="form-control" name="nfc">
+							<input type="text" id="idNFC" class="form-control" placeholder="ID NFC" name="nfc">
 						</div>
 						<div class="row">
-							<label for="" class="col-md-5" >Login</label><input type="text" id="login" name="login" class="form-control">
+							<input type="text" id="login" name="login" placeholder="Login" class="form-control">
 						</div>
 						<div class="row">
-							<label for="" class="col-md-3">Nom</label><input type="text" id="nom" name="nom" class="form-control">
+							<input type="text" id="nom" name="nom" class="form-control" placeholder="Nom">
 						</div>
-                                                <div class="row">
-							<label for="" class="col-md-3">Prenom</label><input type="text" id="mdp" name="prenom" class="form-control">
+                        <div class="row">
+							<input type="text" id="mdp" name="prenom" class="form-control" placeholder="Prenom">
 						</div>	
 						<div class="row">
-							<label for="" class="col-md-5">Mot de passe</label><input type="password" id="mdp" name="mdp" class="form-control">
+							<input type="password" id="mdp" name="mdp" class="form-control" placeholder="Mot de passe">
 						</div>
 						<br>
 						<div class="row">
 							<button type="submit" name="boutonInscription" class="btn-block btn-primary">Créer un compte</button>
 						</div>	
-						<br>
 						<div class="row">
 							<button type="submit" class="btn-block btn-default" name="boutonConnexion">Déjà inscrit ?</button>
 						</div>
